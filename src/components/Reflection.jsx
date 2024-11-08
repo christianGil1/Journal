@@ -74,12 +74,12 @@ export const Reflection = () => {
                     <div className="ml-6 text-gray-600 space-y-4">
                         <p><strong>Describing the department or functional area and its methods of operation:</strong></p>
                         <p>
-                            During my internship, I worked in the software development department at Fligno Software. This team focuses on creating custom software solutions and operates in an agile environment. Each project is managed in phases, from planning and design to development and deployment. Team members collaborate closely, using platforms like GitHub for version control and project management tools to ensure timelines and deliverables are met.
+                            During my internship, I worked in the software development department at Fligno Software. This team focuses on creating custom software solutions and operates in an agile, sprint or anything that is suitable for the environment. Each project is managed in phases, from planning and design to development and deployment. Team members collaborate closely, using platforms like GitHub, GitLab, React, Laravel and other project management tools to ensure timelines and deliverables are met.
                         </p>
 
                         <p><strong>As an Intern, how did the department benefit from me?</strong></p>
                         <p>
-                            As an intern, I contributed to an inventory management system project. My work allowed the team to complete the project faster by sharing tasks such as database management, API development, and front-end UI design. I also supported testing and debugging, ensuring smoother transitions through each project phase.
+                            As an intern, I contributed to the development of an inventory management system project for Fligno which might be used by the company. My work allowed me to complete the project faster by learning and applying that knowledge to my tasks such as database management, API development in the back-end, and front-end UI design. I also managed to test and debug my code with Postman, ensuring smoother transitions through each project phase.
                         </p>
 
                         <p><strong>Summarizing how I spent my hours during practicum, including specific accomplishments:</strong></p>
@@ -89,7 +89,7 @@ export const Reflection = () => {
 
                         <p><strong>What have I learned from the experience in the company?</strong></p>
                         <p>
-                            My time at Fligno Software taught me the importance of attention to detail, teamwork, and efficient coding practices. I learned how to structure a full-stack application from scratch and gained valuable experience in debugging and optimizing code.
+                            My time at Fligno Software taught me the importance of attention to detail, selfpaced learning, teamwork, and efficient coding practices. I learned how to structure a full-stack application from scratch and gained valuable experience in debugging and optimizing code.
                         </p>
 
                         <p><strong>How was my experience with the people in the company?</strong></p>
