@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { Link, useOutletContext } from 'react-router-dom';
+import ResumeModal from './ResumeModal';
 
 export const Home = () => {
-    const { setHighlighted } = useOutletContext(); // Access the context
-    const [isNavOpen, setIsNavOpen] = useState(false); // State to control the hamburger menu
+    const { setHighlighted } = useOutletContext();
+    const [isNavOpen, setIsNavOpen] = useState(false);
+    const [isResumeModalOpen, setIsResumeModalOpen] = useState(false);
 
     const handleToggleNav = () => {
         setIsNavOpen(!isNavOpen);
@@ -20,6 +22,9 @@ export const Home = () => {
         setHighlighted(false);
       }, 2000); // Reset after 3 seconds
     };
+
+    const handleViewResumeClick = () => setIsResumeModalOpen(true);
+    const handleCloseModal = () => setIsResumeModalOpen(false);
 
     return (
         <div className="relative bg-gray-100 min-h-screen flex flex-col items-center overflow-hidden">
@@ -74,11 +79,14 @@ export const Home = () => {
                     >
                     Get in Touch
                     </button>
-                    <button className="border-2 border-gray-800 text-gray-800 py-2 px-4 rounded hover:bg-gray-800 hover:text-white">
+                    <button onClick={handleViewResumeClick} className="border-2 border-gray-800 text-gray-800 py-2 px-4 rounded hover:bg-gray-800 hover:text-white">
                     View Resume
                     </button>
                 </div>
             </header>
+
+            {/* Conditional rendering of ResumeModal */}
+            {isResumeModalOpen && <ResumeModal onClose={handleCloseModal} />}
 
             {/* Projects Section */}
             <section id="projects-section" className="mt-8 mb-10 w-full max-w-7xl text-center px-6 z-10">
