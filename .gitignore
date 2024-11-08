@@ -19,5 +19,4 @@ lerna-debug.log*
 *.sw?
 
 # PDF files in the public folder
-public/*.pdf
 node_modules
