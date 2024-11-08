@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='Journal'>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
