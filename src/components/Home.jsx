@@ -26,13 +26,15 @@ export const Home = () => {
 
     const handleViewResumeClick = () => setIsResumeModalOpen(true);
     const handleCloseModal = () => setIsResumeModalOpen(false);
-
+    
     // Slick slider settings
     const sliderSettings = {
-        infinite: false,
+        infinite: true, // Enables looping
         slidesToShow: 4,
         dots: false,
         arrows: true,
+        autoplay: true, // Enables auto-play
+        autoplaySpeed: 6000, // Sets the interval to 6 seconds
         responsive: [
             {
                 breakpoint: 1024,

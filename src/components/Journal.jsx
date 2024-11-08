@@ -123,20 +123,18 @@ export const Journal = () => {
 
                 <div className="grid gap-8 md:grid-cols-2">
                     <div className="bg-white p-6 shadow-lg rounded-lg flex flex-col items-center hover:shadow-xl transition-all">
-                        <h2 className="mb-4 font-semibold text-gray-800">[ August 2024 - Novemver 2024 ]</h2>
-                        <img src="https://i.ibb.co/8rFcFy1/file.jpg" alt="Documentation 1" className="rounded mb-4" />
+                        <img src="https://i.ibb.co/8rFcFy1/file.jpg" alt="Project 1" className="rounded mb-4" />
                         <h3 className="text-lg font-semibold text-gray-800">On-The-Job Training at Fligno Software</h3>
-                        <p className="text-gray-600 mt-2 mb-2">
-                            As an OJT student at Fligno Software, I developed a inventory management system from scratch using 
+                        <p className="text-gray-600 mt-2 mb-4">
+                            As an OJT college student at Fligno Software, I managed to create a inventory management system from scratch using 
                             Laravel and React, designed to streamline tracking and optimize supply chain operations, gaining 
                             valuable hands-on experience in full-stack software development.
                         </p>
                     </div>
                     <div className="bg-white p-6 shadow-lg rounded-lg flex flex-col items-center hover:shadow-xl transition-all">
-                        <h2 className="mb-4 font-semibold text-gray-800">[ May 2023 - Aug 2023 ]</h2>
-                        <img src="https://i.ibb.co/nLVBLZ2/5.jpg" alt="Documentation 2" className="rounded mb-4" />
+                        <img src="https://i.ibb.co/nLVBLZ2/5.jpg" alt="Project 2" className="rounded mb-4" />
                         <h3 className="text-lg font-semibold text-gray-800">Student Assistant at Xavier University</h3>
-                        <p className="text-gray-600 mt-2 mb-2">
+                        <p className="text-gray-600 mt-2 mb-4">
                             As a Student Assistant at Xavier University, I assisted with theater productions, 
                              supported event planning for cultural programs, and conducted tours while 
                             helping organize exhibits at the Museo de Oro. This enhanced my  and problem-solving skills and 
