@@ -50,7 +50,7 @@ export const Profile = () => {
             <header className="text-center md:text-left p-6 max-w-6xl mt-10 z-10 grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="space-y-4 mt-8">
                     <h1 className="text-4xl font-bold text-gray-800">About Me</h1>
-                    <p className="text-gray-600 mt-4">
+                    <p className="text-lg text-gray-600 mt-4">
                         I thrive on solving complex problems and am always eager to learn new tools and techniques. 
                         My goal is to continue growing my skills as a developer and contribute to innovative projects that 
                         make a real impact.
