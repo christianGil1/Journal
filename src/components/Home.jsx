@@ -26,7 +26,7 @@ export const Home = () => {
 
     const handleViewResumeClick = () => setIsResumeModalOpen(true);
     const handleCloseModal = () => setIsResumeModalOpen(false);
-    
+
     // Slick slider settings
     const sliderSettings = {
         infinite: true, // Enables looping
@@ -135,17 +135,17 @@ export const Home = () => {
                         </p>
                     </div>
                     <div className="bg-white p-6 shadow-lg rounded-lg flex flex-col items-center">
-                        <img src="https://i.ibb.co/M8xRKFT/image.png" alt="Project 3" className="rounded mb-4" />
-                        <h3 className="text-lg font-semibold text-gray-800">XU-NSP Website</h3>
-                        <p className="text-gray-600 mt-2">
-                            The Xavier University - Night School Program Website was developed using the content management system of WordPress.
-                        </p>
-                    </div>
-                    <div className="bg-white p-6 shadow-lg rounded-lg flex flex-col items-center">
                         <img src="https://i.ibb.co/LggMkSZ/image.png" alt="Project 2" className="rounded mb-4" />
                         <h3 className="text-lg font-semibold text-gray-800">Cruiseship Booking System</h3>
                         <p className="text-gray-600 mt-2 mb-5">
                             A user-friendly booking system designed to simplify the process of booking and managing cruiseship reservations.
+                        </p>
+                    </div>
+                    <div className="bg-white p-6 shadow-lg rounded-lg flex flex-col items-center">
+                        <img src="https://i.ibb.co/M8xRKFT/image.png" alt="Project 3" className="rounded mb-4" />
+                        <h3 className="text-lg font-semibold text-gray-800">XU-NSP Website</h3>
+                        <p className="text-gray-600 mt-2">
+                            The Xavier University - Night School Program Website was developed using the content management system of WordPress.
                         </p>
                     </div>
                     {/* Mini Projects Card with Tilted, Scattered Images */}
