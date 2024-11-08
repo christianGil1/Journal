@@ -5,7 +5,7 @@
     "type": "git",
     "url": "https://github.com/christianGil1/Journal.git"
   },
-  "homepage": "Journal",
+  "homepage": "/Journal",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

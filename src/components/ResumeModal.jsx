@@ -13,7 +13,7 @@ const ResumeModal = ({ onClose }) => {
                 <div style={{ height: '500px' }}>
                     <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
                         <Viewer
-                            fileUrl="/ChristianGil_Alaan_Resume.pdf"
+                            fileUrl="/Journal/ChristianGil_Alaan_Resume.pdf"
                             plugins={[]}
                         />
                     </Worker>
