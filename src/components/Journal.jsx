@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
-import { FaBars } from 'react-icons/fa';
+import React, { useState, useEffect } from 'react';
+import { FaBars, FaArrowUp } from 'react-icons/fa';
 import { Link, useOutletContext } from 'react-router-dom';
 
 export const Journal = () => {
     const { setHighlighted } = useOutletContext();
     const [isNavOpen, setIsNavOpen] = useState(false);
+    const [showButton, setShowButton] = useState(false);
 
     const handleToggleNav = () => {
         setIsNavOpen(!isNavOpen);
@@ -20,6 +21,18 @@ export const Journal = () => {
           setHighlighted(false);
         }, 2000); // Reset after 3 seconds
       };
+
+    useEffect(() => {
+    const handleScroll = () => {
+        if (window.scrollY > 200) {
+        setShowButton(true);
+        } else {
+        setShowButton(false);
+        }
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
 
     return (
         <div className="relative bg-gray-100 min-h-screen flex flex-col items-center overflow-hidden">
@@ -242,6 +255,14 @@ export const Journal = () => {
                     </div>
                 </div>
             </div>
+            {showButton && (
+                <button
+                className="fixed bottom-0 right-0 mb-4 mr-4 bg-yellow-500 text-white py-4 px-4 rounded hover:bg-yellow-600 z-10"
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              >
+                <FaArrowUp className="text-2xl" />
+              </button>
+            )}
         </div>
     );
 };
