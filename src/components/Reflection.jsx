@@ -41,7 +41,7 @@ export const Reflection = () => {
 
                 <div className={`flex gap-4 md:flex-row flex-col ${isNavOpen ? 'block' : 'hidden'} md:flex md:items-center`}>
                     <Link to="/" className="text-gray-800 hover:text-yellow-600 px-4 py-2 border-b-2 border-transparent hover:border-yellow-600 transition duration-300">Home</Link>
-                    <Link to="/profile" className="text-gray-800 hover:text-yellow-600 px-4 py-2 border-b-2 border-transparent hover:border-yellow-600 transition duration-300">About</Link>
+                    <Link to="/profile" className="text-gray-800 hover:text-yellow-600 px-4 py-2 border-b-2 border-transparent hover:border-yellow-600 transition duration-300">Profile</Link>
                     <Link to="/journal" className="text-gray-800 hover:text-yellow-600 px-4 py-2 border-b-2 border-transparent hover:border-yellow-600 transition duration-300">Journal</Link>
                 </div>
             </nav>
@@ -51,7 +51,7 @@ export const Reflection = () => {
             <header className="text-center md:text-left p-6 max-w-6xl mt-10 z-10 grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="space-y-4 mt-8">
                     <h1 className="text-4xl font-bold text-gray-800">Reflection</h1>
-                    <p className="ml-10 text-lg text-gray-600 mt-4">
+                    <p className="text-lg text-gray-600 mt-4">
                         A reflection about my experiences, hardships, and appreciations towards myself for being able to be part of a team.
                     </p>
                 </div>
@@ -60,7 +60,7 @@ export const Reflection = () => {
                     <img src="https://i.ibb.co/YfcjqBX/3.jpg" alt="Christian Gil Alaan" className="rounded-full h-48 w-48 object-cover shadow-lg" />
                     <button
                         onClick={handleGetInTouchClick}
-                        className="bg-yellow-500 text-white py-2 px-4 rounded hover:bg-yellow-600 mt-4 mr-9"
+                        className="bg-yellow-500 text-white py-2 px-4 rounded hover:bg-yellow-600 mt-4 md:mr-9 text-center"
                     >
                         Get in Touch
                     </button>

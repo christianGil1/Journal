@@ -50,7 +50,7 @@ export const Profile = () => {
             <header className="text-center md:text-left p-6 max-w-6xl mt-10 z-10 grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="space-y-4 mt-8">
                     <h1 className="text-4xl font-bold text-gray-800">About Me</h1>
-                    <p className="ml-10 text-gray-600 mt-4">
+                    <p className="text-gray-600 mt-4">
                         I thrive on solving complex problems and am always eager to learn new tools and techniques. 
                         My goal is to continue growing my skills as a developer and contribute to innovative projects that 
                         make a real impact.
@@ -61,7 +61,7 @@ export const Profile = () => {
                     <img src="https://i.ibb.co/YfcjqBX/3.jpg" alt="Christian Gil Alaan" className="rounded-full h-48 w-48 object-cover shadow-lg" />
                     <button
                         onClick={handleGetInTouchClick}
-                        className="bg-yellow-500 text-white py-2 px-4 rounded hover:bg-yellow-600 mt-4 mr-9"
+                        className="bg-yellow-500 text-white py-2 px-4 rounded hover:bg-yellow-600 mt-4 md:mr-9 text-center"
                     >
                         Get in Touch
                     </button>
