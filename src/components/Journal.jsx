@@ -105,7 +105,7 @@ export const Journal = () => {
                 
                 {/* Background Image for Week 2 */}
                 <img 
-                    src="https://private-user-images.githubusercontent.com/95863162/359106667-345b49f4-c014-4b2b-92c3-51d5af1a51d5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzEwNTc3MTksIm5iZiI6MTczMTA1NzQxOSwicGF0aCI6Ii85NTg2MzE2Mi8zNTkxMDY2NjctMzQ1YjQ5ZjQtYzAxNC00YjJiLTkyYzMtNTFkNWFmMWE1MWQ1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTA4VDA5MTY1OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdiNWYzZWM5YmE3MDIyMTE3YTQxYTA2YzRlMTI0ZjQ3YmRkN2RkOTJhMzI5NzhhNWMwZWJjMmM5MmQ5N2Y4NzAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.6EBOo0HZ39YC8bX_QzoOFh7lJ06Ok7JKciMCRuukTPk" 
+                    src="https://sontii.com/images/tenzies.jpg" 
                     alt="Mini Project 3" 
                     className="w-96 h-76 rounded absolute top-[calc(5*rem)] left-10 transform rotate-[-15deg] shadow-lg z-0" 
                 />
