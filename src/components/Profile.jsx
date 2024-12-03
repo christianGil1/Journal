@@ -125,7 +125,7 @@ export const Profile = () => {
 
                 <div className="grid gap-8 md:grid-cols-2">
                     <div className="bg-white p-6 shadow-lg rounded-lg flex flex-col items-center hover:shadow-xl transition-all">
-                        <h2 className="mb-4 font-semibold text-gray-800">[ August 2024 - Novemver 2024 ]</h2>
+                        <h2 className="mb-4 font-semibold text-gray-800">[ August 2024 - November 2024 ]</h2>
                         <img src="https://i.ibb.co/8rFcFy1/file.jpg" alt="Documentation 1" className="rounded mb-4" />
                         <h3 className="text-lg font-semibold text-gray-800">On-The-Job Training at Fligno Software</h3>
                         <p className="text-gray-600 mt-2 mb-2">
